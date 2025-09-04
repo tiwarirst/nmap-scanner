@@ -1,7 +1,26 @@
-# 🛡️ Interactive Nmap Vulnerability Scanner
+# 🛡️ Interact## 📁 Project Structure
+
+```
+nmap-scanner/
+├── cnmap-scanner-assistance.py    # Main scanner script
+├── README.md                      # Project documentation
+├── .gitignore                    # Git ignore file
+└── .venv/                        # Virtual environment (generated)
+```
+
+## 📋 Prerequisites
+
+- Python 3.8 or higher Nmap Vulnerability Scanner
+
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/github/license/tiwarirst/nmap-scanner)](https://github.com/tiwarirst/nmap-scanner/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/tiwarirst/nmap-scanner)](https://github.com/tiwarirst/nmap-scanner/issues)
+[![GitHub stars](https://img.shields.io/github/stars/tiwarirst/nmap-scanner)](https://github.com/tiwarirst/nmap-scanner/stargazers)
 
 An **interactive, user-friendly** Python-based Nmap wrapper that helps you **scan targets**, **analyze open ports**, and **get vulnerability hints** based on detected services and versions.  
 Designed for penetration testers, cybersecurity learners, and network administrators.
+
+📌 [View on GitHub](https://github.com/tiwarirst/nmap-scanner)
 
 ---
 
@@ -64,7 +83,7 @@ Requirements:
 
 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/tiwarirst/nmap-scanner.git
 cd nmap-scanner
 ```
 
